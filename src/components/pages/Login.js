@@ -60,8 +60,8 @@ export default function LoginDropMenu(){
                         </div>
                         <button type="submit" className="mt-3 btn btn-primary">Sign in</button>
                     </form>
-            <div className="dropdown-divider"></div>
-            <a className="dropdown-item" data-bs-toggle="modal" data-bs-target="#signUp" href="#">Sign up</a>
+            <div className="dropdown-divider text-center"></div>
+            <a className="dropdown-item text-center" data-bs-toggle="modal" data-bs-target="#signUp" href="#">Sign up</a>
             </div>
         )}
         <Form></Form>

@@ -148,10 +148,12 @@
     width: 100%;
   }
   
-  button {
+  /* button {
     width: 100%;
   }
-  
+   */
+
+
 }
 
 @media (max-width: 500px) {

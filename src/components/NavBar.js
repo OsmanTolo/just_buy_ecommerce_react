@@ -10,7 +10,7 @@ function NavBar() {
   const cartCount = useSelector(state => state.products.length);
   
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar fixed-top navbar-expand-lg">
       <button
         className="navbar-toggler"
         type="button"
@@ -24,7 +24,7 @@ function NavBar() {
       </button>
       <a className="logo navbar-brand">JustBuy</a>
       <div
-        className="collapse navbar-collapse"
+        className="collapse navbar-collapse text-center"
         id="navbarTogglerDemo03"
       >
         <div>
@@ -97,36 +97,9 @@ function NavBar() {
             </li>
           </ul>
         </div>
-        <div className="nav-item nav-links__right">
-          <ul className="navbar-nav justify-content-end">
-            <li className=" dropdown">
-              <a
-                className="nav-item nav-link dopdown-toggle"
-                href="#"
-                id="navbardrop"
-                data-bs-toggle="dropdown"
-              >
-                {" "}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  className="bi bi-search"
-                  viewBox="0 0 16 16"
-                >
-                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                </svg>
-              </a>
-              <div className="nav-item dropdown-menu">
-                <input
-                  className="dropdown-item form-control mr-sm-2"
-                  type="text"
-                  placeholder="Search"
-                ></input>
-              </div>
-            </li>
-            <li className="nav-item">
+        <div className="nav-item nav-links__right text-center">
+          <ul className="navbar-nav text-center sameLine">
+            <li className="nav-item" id="cartIcon">
               <NavLink 
                 to="/checkout" 
                 end
@@ -152,9 +125,9 @@ function NavBar() {
                 </sup>
               </NavLink>
             </li>
-            <li className="nav-item dropdown">
+            <li className="nav-item dropdown" id="signIn">
               <a
-                className="nav-link dropdown-toggle sign-in"
+                className="nav-link dropdown-toggle sign-in text-center"
                 href="#"
                 data-bs-toggle="dropdown"
               >

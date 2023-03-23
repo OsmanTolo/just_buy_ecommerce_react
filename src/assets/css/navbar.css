@@ -37,3 +37,8 @@ nav > .nav-link {
   align-items: center;
   gap: 0.25rem;
 }
+
+@media (max-width: 767px) {
+ul.sameLine{
+  display: inline-block;
+}}
