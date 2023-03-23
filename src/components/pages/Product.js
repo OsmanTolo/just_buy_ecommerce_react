@@ -2,7 +2,7 @@ import axios from "axios";
 import React, {useEffect, useState } from "react";
 import {useParams} from "react-router-dom";
 import store from "../../store";
-import { BrowserRouter as Router, Route, Routes, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 
 function Product({data}) {

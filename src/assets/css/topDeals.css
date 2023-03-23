@@ -17,10 +17,12 @@
 }
 
 .topDeal-card__header {
-  font-size: 1rem;
+  margin-top: 0.75rem;
+  font-size: 1.05rem;
   font-weight: 600;
   text-align: left;
   margin-bottom: 0.5rem;
+  color: #1c1c1c;
 }
 
 .topDeal-card__img {
@@ -35,15 +37,15 @@
   justify-content: space-between;
 
   text-align: left;
-  color: #c3073f;
+  color: #f56400;
   transition: color 0.2s ease-in-out;
   font-weight: bold;
+  font-size: 1.125rem;
 }
 
 .topDeal-card:focus,
 .topDeal-card:hover {
   color: #004499;
-  border-bottom-color: #004499;
   outline: none;
 }
 

@@ -24,7 +24,7 @@ export default function Form(){
         return(<>
         {signedIn ? (
 
-<div className="modal fade" id="signUp" tabindex="-1" role="dialog" aria-labelledby="signUpLabel" aria-hidden="true">
+<div className="modal fade" id="signUp" tabIndex="-1" role="dialog" aria-labelledby="signUpLabel" aria-hidden="true">
   <div className="modal-dialog text-center" role="document">
     <div className="modal-content">
       <div className="modal-header auto-mx">
@@ -45,7 +45,7 @@ export default function Form(){
 </div>
         
         ) : (
-<div className="modal fade" id="signUp" tabindex="-1" role="dialog" aria-labelledby="signUpLabel" aria-hidden="true">
+<div className="modal fade" id="signUp" tabIndex="-1" role="dialog" aria-labelledby="signUpLabel" aria-hidden="true">
     <div className="modal-dialog" role="document">
         <div className="modal-content"> 
             <div className="modal-header">
@@ -56,7 +56,7 @@ export default function Form(){
             </div>
             <div className="modal-body">
                 <form className="form">
-                    <label for="exampleInputFirstName">First Name</label>
+                    <label htmlFor="exampleInputFirstName">First Name</label>
                     <div className="form-group mb-2">
                         <input
                         className="form-control"
@@ -68,7 +68,7 @@ export default function Form(){
                         />
                     </div>
                     
-                    <label for="exampleInputSurname">Surname</label>
+                    <label htmlFor="exampleInputSurname">Surname</label>
                     <div className="form-group mb-2">
                     <input
                     className="form-control"
@@ -79,7 +79,7 @@ export default function Form(){
                    placeholder="Last Name"
                     />
                     </div>
-                    <label for="exampleInputEmail1">Email</label>
+                    <label htmlFor="exampleInputEmail1">Email</label>
                     <div className="form-group mb-2">
                     <input
                     className="form-control"
@@ -90,7 +90,7 @@ export default function Form(){
                     placeholder="Email"
                     />
                     </div>
-                    <label for="exampleInputPassword">Password</label>
+                    <label htmlFor="exampleInputPassword">Password</label>
                     <div className="form-group mb-2">
                     <input
                     className="form-control"
@@ -101,7 +101,7 @@ export default function Form(){
                    placeholder="password"
                     />
                     </div>
-                    <label for="exampleInputPasswordConfirm">Confirm your password</label>
+                    <label htmlFor="exampleInputPasswordConfirm">Confirm your password</label>
                     <div className="form-group mb-2">
                     <input
                     className="form-control"

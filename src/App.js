@@ -23,8 +23,8 @@ function App() {
           <NavBar />
           <Routes>
             <Route path="*" element={<HomePage />} />
-            <Route path="/shop" element={<ShopPage />} />
-            <Route path="/category/:name" element={<CategoryProducts/>}  />
+            <Route path="/shop/*" element={<ShopPage />} />
+            <Route path="/category/:name/*" element={<CategoryProducts/>}  />
             <Route path="/category/:name/product/:id" element={<Product/>}  />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />

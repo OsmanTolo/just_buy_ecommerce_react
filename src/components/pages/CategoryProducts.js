@@ -53,7 +53,7 @@ export default function CategoryProducts() {
               <div>${price}</div>
               <div className="buttons">
                 <button
-                  className="add-button"
+                  className="add-button prod-button"
                   onClick={() => handleAddToBasket({ title, images, price })}
                 >
                   Add
@@ -66,7 +66,7 @@ export default function CategoryProducts() {
                       element={<Product data={products.products} />}
                     />
                   </Routes>
-                  <button className="more-button">Info</button>
+                  <button className="more-button prod-button">Info</button>
                 </Link>
               </div>
             </div>

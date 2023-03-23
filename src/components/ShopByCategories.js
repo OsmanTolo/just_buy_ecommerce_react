@@ -8,7 +8,7 @@ export default function ShopByCategories() {
     <div className="shop-page">
       <section className="categories custom-container">
         <h2 className="header-caption">Our Top Categories</h2>
-        <div className="grid-container">
+        <div className="grid-container category-links">
           <div className="shop-card clothing">
             <Link to="/category/womens-dresses">
               <Routes>
